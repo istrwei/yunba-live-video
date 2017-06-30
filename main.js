@@ -34,7 +34,7 @@ function init() {
 
 $(document).ready(function() {
 
-  $('#span-status').text('正在连接云巴服务器...');
+  $('#span-status').text('正在连接弹幕服务器...');
 
   window.onresize = init;
   init();
