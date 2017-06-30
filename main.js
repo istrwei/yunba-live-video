@@ -1,4 +1,4 @@
-var APPKEY = '56a0a88c4407a3cd028ac2fe';
+var APPKEY = '59560dfb2a9275716fe3b5d4';
 var TOPIC_BULLET = 'bullet';
 var TOPIC_LIKE = 'like';
 var TOPIC_STAT = 'stat';
@@ -34,7 +34,7 @@ function init() {
 
 $(document).ready(function() {
 
-  $('#span-status').text('正在连接弹幕服务器...');
+  $('#span-status').text('正在连接弹幕姬...');
 
   window.onresize = init;
   init();
@@ -228,7 +228,7 @@ function yunba_msg_cb(data) {
 }
 
 function yunba_sub_ok() {
-  $('#span-status').text('连接弹幕服务器成功～');
+  $('#span-status').text('连接弹幕姬成功～');
   setTimeout(function() {
     $('#form-status').css("display", "none");
     $('#form-info').css("display", "block");
