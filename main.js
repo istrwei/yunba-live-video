@@ -228,7 +228,7 @@ function yunba_msg_cb(data) {
 }
 
 function yunba_sub_ok() {
-  $('#span-status').text('连接云巴服务器成功～');
+  $('#span-status').text('连接弹幕服务器成功～');
   setTimeout(function() {
     $('#form-status').css("display", "none");
     $('#form-info').css("display", "block");
