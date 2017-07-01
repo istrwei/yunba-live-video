@@ -60,7 +60,7 @@ $(document).ready(function() {
   window.yunba = new Yunba({
     server: 'sock.yunba.io',
     port: 3000,
-    appkey:59560dfb2a9275716fe3b5d4
+    appkey:'59560dfb2a9275716fe3b5d4'
   });
 
   // 初始化云巴 SDK
