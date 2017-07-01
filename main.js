@@ -1,4 +1,4 @@
-var APPKEY = '59560dfb2a9275716fe3b5d4';
+var APPKEY = '56a0a88c4407a3cd028ac2fe';
 var TOPIC_BULLET = 'bullet';
 var TOPIC_LIKE = 'like';
 var TOPIC_STAT = 'stat';
